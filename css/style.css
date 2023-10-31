@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Manrope:wght@200;400;500;600;700&display=swap');
+
+:root{
+	--color-general:#707070;
+	--color-primario: #00438b;
+}
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: var(--color-general);
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+	
+}
+
+
+
+header{
+	background-color: var(--color-primario);
+	
+}
+
+#hero {
+    position: relative;
+    background-size: cover;
+    background-position: top center;
+    padding: 10%;
+	color: #FFF;
+	background: linear-gradient(
+    rgba(3, 33, 141, 0.40), 
+    rgba(3, 33, 141, 0.40)
+  ),
+  url("../img/hero-bg-4.jpg"); 	
+}
+
+#hero h1{
+	font-family: "Comfortaa";
+
+	}
+
+#features{
+	padding:5%;
+	}
+
+#features h1{
+	font-family: "Comfortaa";
+	text-align:center;
+	color:#000;
+	}
+
+#features h3{
+	text-align:center;
+	font-size:150%;
+	padding-bottom:3%;
+	}
+
+.iconocentro{
+	text-align:center;
+	font-size:40px;
+	}
+
+#agency .card{
+	background-color: #c6e6fd;
+	margin:10%;
+	padding-left: 10px;
+	padding-right: 10px,
+	
+}
+
+
+#agency{
+	}
+	
+
+#agency h4{
+	font-size: 30px;
+	font-weight: 400;
+	font-family: "Comfortaa";
+	color:#000000;
+	text-align: center;
+}
+
+
+#agency h5{
+	font-size: 15px;
+	font-weight: 400;
+	font-family: "Comfortaa";
+	color:#000000;
+	text-align: center;
+	
+}
+
+#cta{
+	position: relative;
+    background-size: contain;
+    padding: 2%;
+	color: #FFF;
+	background: linear-gradient(
+    rgba(3, 33, 141, 0.40), 
+    rgba(3, 33, 141, 0.40)
+  ),
+  url("../img/hero-bg-2.jpg"); 	
+}
+	}
+
+#cta h2{
+color: #fff;
+font-size: 50px;
+text-align: left;
+	}
+	
+
+.iconocontacto{
+color: #fff;
+background-color: #ff7700;
+}
+	
+	
+	
+
+
+
+
+
+
+
+footer{
+	background-color: #fff;
+	padding: 30px 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
